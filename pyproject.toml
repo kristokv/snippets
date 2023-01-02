@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "snippets"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+geoserver-rest = "^2.3.4"
+pydantic = {extras = ["dotenv"], version = "^1.10.4"}
+minio = "^7.1.12"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+ipykernel = "^6.19.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
