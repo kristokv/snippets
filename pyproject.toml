@@ -10,6 +10,7 @@ python = "^3.10"
 geoserver-rest = "^2.3.4"
 pydantic = {extras = ["dotenv"], version = "^1.10.4"}
 minio = "^7.1.12"
+pyodm = "^1.5.10"
 
 
 [tool.poetry.group.dev.dependencies]
