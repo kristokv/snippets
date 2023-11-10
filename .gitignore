@@ -1,7 +1,9 @@
 node_modules
 # vscode
 .vscode/
-
+seabee-ai/**
+nrdata/**
+config/**
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
