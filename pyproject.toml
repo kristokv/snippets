@@ -2,12 +2,13 @@
 name = "snippets"
 version = "0.1.0"
 description = ""
-authors = [""]
+authors = []
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 geoserver-rest = "^2.3.4"
+GDAL= "3.4.0"
 pydantic = {extras = ["dotenv"], version = "^1.10.4"}
 minio = "^7.1.12"
 pyodm = "^1.5.10"
