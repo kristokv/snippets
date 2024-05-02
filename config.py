@@ -2,10 +2,10 @@ from pydantic import BaseSettings
 
 
 class Settings(BaseSettings):
-    ACCESS_ID: str
-    SECRET_KEY: str
-    GEOSERVER_USER: str
-    GEOSERVER_PASSWORD: str
+    MINIO_ACCESS_ID: str
+    MINIO_SECRET_KEY: str
+    GEOSERVER_USER: str = "admin"
+    GEOSERVER_PASSWORD: str = "geoserver"
 
     class Config:
         case_sensitive = False
