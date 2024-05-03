@@ -16,10 +16,10 @@ client = s3fs.S3FileSystem(
 )
 
 # %%
-base_path = pathlib.Path(".")
+base_path = pathlib.Path("E:/SEABEE_DATA")
 
 # %%
-for year in ["2023"]:
+for year in ["2022", "2023"]:
     for dir in (base_path / year).iterdir():
         print(dir.name)
         conf_path = f"niva-tidy/{year}/{dir.name}/config.seabee.yaml"
